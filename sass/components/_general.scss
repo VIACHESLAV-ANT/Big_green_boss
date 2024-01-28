@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (min-width: 480px) {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto; 
+  }
+  @media screen and (min-width: 768px){
+    width: 768px;
+    }
+  @media screen and (min-width: 1200px){
+  width: 1200px;
+}
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  padding: 60px 0;
+  @media screen and (min-width: 1200px){
+  padding: 94px 0;
+}
+}

@@ -1,0 +1,30 @@
+@media screen and (min-width: 1200px) {
+    .contaсts{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .contaсts__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .contaсts__link {
+        font-size: 14px;
+    }
+
+    .contaсts__icon{
+        width: 16px;
+        height: 16px;
+        fill: var(--second-text-color);
+        margin-right: 10px;
+          
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          
+        .contaсts__link:hover &,
+        .contaсts__link:focus & {
+            fill: var(--acent-color);
+            }
+    }
+
+  }
